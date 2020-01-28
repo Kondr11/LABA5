@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 set -e
 
 files=`find . -name "*.cpp" -or -name "*.hpp" -or -name ".h" | grep -v "./tools/*" | grep -v "./cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" | grep -v "./tests" | grep -v "./include/1/" | grep -v "./cmake-build-debug/_3rdParty/Hunter/toolchain/_builds/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp"`
