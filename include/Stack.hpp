@@ -1,6 +1,6 @@
 // Copyright 2020 Kondr11
-#ifndef TEMPLATE_STACK_HPP
-#define TEMPLATE_STACK_HPP
+#ifndef INCLUDE_STACK_HPP_
+#define INCLUDE_STACK_HPP_
 
 #include "MyStack.hpp"
 
@@ -30,4 +30,4 @@ public:
     }
 };
 
-#endif //TEMPLATE_STACK_HPP
+#endif //INCLUDE_STACK_HPP_
