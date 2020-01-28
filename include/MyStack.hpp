@@ -15,7 +15,7 @@ protected:
 public:
     MainStack() = default;
     MainStack(const MainStack &stack) = delete; //имеет константный член
-    // без определяемого пользователем конструктора по умолчанию или
+    // без определяемого пользователем  конструктора по умолчанию или
     // инициализатора члена по умолчанию
     MainStack(MainStack &&stack) noexcept = default;// нет исключений
 
