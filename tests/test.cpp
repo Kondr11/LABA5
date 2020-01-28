@@ -124,4 +124,4 @@ EXPECT_EQ(copyableStack.head().value, 4);
 TEST_F(StackFixture, Head)
 {
 EXPECT_EQ(copyableStack.head().value, 5);
-}}
+}
