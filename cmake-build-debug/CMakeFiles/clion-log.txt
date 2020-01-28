@@ -1,0 +1,59 @@
+"D:\CLion 2019.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - NMake Makefiles" D:\Git\lab-05-stack
+-- [hunter] Calculating Toolchain-SHA1
+-- [hunter] Calculating Config-SHA1
+-- [hunter] HUNTER_ROOT: C:/.hunter
+-- [hunter] [ Hunter-ID: 9a3594a | Toolchain-ID: ab7ade2 | Config-ID: c351cc1 ]
+-- [hunter] GTEST_ROOT: C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install (ver.: 1.8.0-hunter-p11)
+CMake Warning (dev) at CMakeLists.txt:29 (find_package):
+  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  Environment variable GTest_ROOT is set to:
+
+    C:/.hunter/_Base/9a3594a/ab7ade2/c351cc1/Install
+
+  For compatibility, CMake is ignoring the variable.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Git/lab-05-stack/cmake-build-debug
+
+Cannot get compiler information:
+	Compiler exited with error code 2: "D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @D:\Temp\response-file9884182645832188952 D:\Temp\compiler-file5137850136160611099 | @response-file9884182645832188952=/TP -ID:\Git\lab-05-stack\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP
+	ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.16.27034 ¤«п x86
+	(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+	
+	all:
+		@cd D:\Git\lab-05-stack\cmake-build-debug
+		@set INCLUDE=D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include;D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt
+		@set LIB=D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\lib\x86;D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x86;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x86;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x86;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x86;
+		@set CL=
+		@set _CL_=
+		@set LINK=
+		D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe @<< D:\Temp\compiler-file5137850136160611099
+	/TP -ID:\Git\lab-05-stack\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP<<
+	
+	cl /TP -ID:\Git\lab-05-stack\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP
+	cl: Є®¬ ­¤­ п бва®Є  error D8021: ­Ґ¤®ЇгбвЁ¬л© зЁб«®ў®©  аЈг¬Ґ­в "/Werror"
+	
+	
+	Compiler exited with error code 2: "D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @D:\Temp\response-file9076712319152105449 D:\Temp\compiler-file5137850136160611099 | @response-file9076712319152105449=/TP -ID:\Git\lab-05-stack\include -IC:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP
+	ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.16.27034 ¤«п x86
+	(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
+	
+	all:
+		@cd D:\Git\lab-05-stack\cmake-build-debug
+		@set INCLUDE=D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include;D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt
+		@set LIB=D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\lib\x86;D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\lib\x86;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x86;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x86;C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x86;
+		@set CL=
+		@set _CL_=
+		@set LINK=
+		D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe @<< D:\Temp\compiler-file5137850136160611099
+	/TP -ID:\Git\lab-05-stack\include -IC:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP<<
+	
+	cl /TP -ID:\Git\lab-05-stack\include -IC:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP
+	cl: Є®¬ ­¤­ п бва®Є  error D8021: ­Ґ¤®ЇгбвЁ¬л© зЁб«®ў®©  аЈг¬Ґ­в "/Werror"
+	
+	

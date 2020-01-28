@@ -1,7 +1,6 @@
 os: linux
-sudo: required
-language:
-- minimal
+sudo: false
+language: "minimal"
 services:
 - docker
 
@@ -22,7 +21,3 @@ jobs:
 
 notifications:
     email: false
-
-branches:
-  except:
-  - master
