@@ -19,7 +19,7 @@ public:
 
     void pop()
     {
-        if ( !MainStack<T>::headNode) {
+        if (!MainStack<T>::headNode) {
             throw std::exception();
         }
 

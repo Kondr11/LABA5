@@ -9,8 +9,6 @@
 
 template <typename T>
 class MainStack {
-protected:
-    StackNode<T> *headNode = nullptr;
 
 public:
     MainStack() = default;
@@ -54,6 +52,8 @@ struct StackNode{
     StackNode *previous = nullptr;
 };
 
+protected:
+StackNode<T> *headNode = nullptr;
 
 
 
