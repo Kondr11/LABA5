@@ -9,7 +9,6 @@
 
 template <typename T>
 class MainStack {
-
 public:
     MainStack() = default;
     MainStack(const MainStack &stack) = delete; //имеет константный член
@@ -24,7 +23,7 @@ public:
 
     void push(T&& value){
         auto *previousNode = headNode;
-        headNode = new StackNode<T>{std::forward<T>(value), previousNode};
+        headNode = new StackNode{std::forward<T>(value), previousNode};
     }
 
     const T& head() const{
@@ -53,7 +52,7 @@ struct StackNode{
 };
 
 protected:
-StackNode<T> *headNode = nullptr;
+StackNode *headNode = nullptr;
 
 
 
