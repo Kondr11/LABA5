@@ -7,7 +7,13 @@
 #include <utility>
 #include <exception>
 
-template <typename T>
+template<class T>
+struct StackNode{
+    T value;
+    StackNode *previous = nullptr;
+};
+
+template<class T>
 class MainStack {
 public:
     MainStack() = default;
@@ -45,11 +51,6 @@ public:
     }
 };
 
-template <typename T>
-struct StackNode{
-    T value;
-    StackNode *previous = nullptr;
-};
 
 protected:
 StackNode *headNode = nullptr;
