@@ -21,7 +21,7 @@ public:
 
     T pop()
     {
-        if (!StackAbstract<T>::headNode) {
+        if (!MainStack<T>::headNode) {
             throw std::exception();
         }
 
