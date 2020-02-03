@@ -29,7 +29,7 @@ public:
 
     void push(T&& value){
         auto *previousNode = headNode;
-        headNode = new StackNode{std::forward<T>(value), previousNode};
+        headNode = new StackNode<T>{std::forward<T>(value), previousNode};
     }
 
     const T& head() const{
@@ -53,7 +53,7 @@ public:
 
 
 protected:
-StackNode *headNode = nullptr;
+StackNode<T> *headNode = nullptr;
 
 
 
