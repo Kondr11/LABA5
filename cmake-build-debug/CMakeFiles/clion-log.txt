@@ -21,7 +21,7 @@ This warning is for project developers.  Use -Wno-dev to suppress it.
 -- Build files have been written to: D:/Git/lab-05-stack/cmake-build-debug
 
 Cannot get compiler information:
-	Compiler exited with error code 2: "D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @D:\Temp\response-file9884182645832188952 D:\Temp\compiler-file5137850136160611099 | @response-file9884182645832188952=/TP -ID:\Git\lab-05-stack\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP
+	Compiler exited with error code 2: "D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @D:\Temp\response-file12184755713092526048 D:\Temp\compiler-file4883281131777687313 | @response-file12184755713092526048=/TP -ID:\Git\lab-05-stack\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP
 	ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.16.27034 ¤«п x86
 	(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
 	
@@ -32,14 +32,14 @@ Cannot get compiler information:
 		@set CL=
 		@set _CL_=
 		@set LINK=
-		D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe @<< D:\Temp\compiler-file5137850136160611099
+		D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe @<< D:\Temp\compiler-file4883281131777687313
 	/TP -ID:\Git\lab-05-stack\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP<<
 	
 	cl /TP -ID:\Git\lab-05-stack\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP
 	cl: Є®¬ ­¤­ п бва®Є  error D8021: ­Ґ¤®ЇгбвЁ¬л© зЁб«®ў®©  аЈг¬Ґ­в "/Werror"
 	
 	
-	Compiler exited with error code 2: "D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @D:\Temp\response-file9076712319152105449 D:\Temp\compiler-file5137850136160611099 | @response-file9076712319152105449=/TP -ID:\Git\lab-05-stack\include -IC:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP
+	Compiler exited with error code 2: "D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe" @D:\Temp\response-file13369182702385634829 D:\Temp\compiler-file4883281131777687313 | @response-file13369182702385634829=/TP -ID:\Git\lab-05-stack\include -IC:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP
 	ЋЇвЁ¬Ё§ЁагойЁ© Є®¬ЇЁ«пв®а Microsoft (R) C/C++ ўҐабЁЁ 19.16.27034 ¤«п x86
 	(C) Љ®аЇ®а жЁп Њ ©Єа®б®дв (Microsoft Corporation).  ‚бҐ Їа ў  § йЁйҐ­л.
 	
@@ -50,7 +50,7 @@ Cannot get compiler information:
 		@set CL=
 		@set _CL_=
 		@set LINK=
-		D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe @<< D:\Temp\compiler-file5137850136160611099
+		D:\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe @<< D:\Temp\compiler-file4883281131777687313
 	/TP -ID:\Git\lab-05-stack\include -IC:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP<<
 	
 	cl /TP -ID:\Git\lab-05-stack\include -IC:\.hunter\_Base\9a3594a\ab7ade2\c351cc1\Install\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc -pedantic -Werror -Wall -Wextra -Wno-unused-command-line-argument -Wshadow -Wnon-virtual-dtor /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 /Be /Bd /EP

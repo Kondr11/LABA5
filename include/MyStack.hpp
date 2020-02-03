@@ -44,7 +44,7 @@ public:
     {
         while (headNode) {
             auto *currentNode = headNode;
-            headNode = currentNode->prev;
+            headNode = currentNode->previous;
 
             delete currentNode;
         }
