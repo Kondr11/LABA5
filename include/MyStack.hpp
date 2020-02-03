@@ -49,11 +49,12 @@ public:
             delete currentNode;
         }
     }
+
+protected:
+    StackNode<T> *headNode = nullptr;
 };
 
 
-protected:
-StackNode<T> *headNode = nullptr;
 
 
 
