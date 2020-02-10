@@ -4,9 +4,6 @@ language: "minimal"
 services:
 - docker
 
-before_script:
-  - docker pull kondr11/bootstrap-cpp
-
 jobs:
   include:
   - name: "checks"
