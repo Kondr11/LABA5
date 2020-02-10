@@ -33,7 +33,7 @@ find_package(GTest CONFIG REQUIRED)
 
 
 add_library(stack1 STATIC
-        ${CMAKE_CURRENT_SOURCE_DIR}/sources/sourse.cpp
+        ${CMAKE_CURRENT_SOURCE_DIR}/sources/source.cpp
         )
 
 add_executable(tests
