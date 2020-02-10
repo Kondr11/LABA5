@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="template" targetName="tests" />
       <config projectName="template" targetName="template" />
+      <config projectName="template" targetName="tests" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -86,7 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1580029524786</updated>
       <workItem from="1580029527451" duration="18174000" />
-      <workItem from="1580726667666" duration="5345000" />
+      <workItem from="1580726667666" duration="5970000" />
+      <workItem from="1581325906025" duration="1356000" />
     </task>
     <servers />
   </component>
